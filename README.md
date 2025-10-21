@@ -73,7 +73,7 @@ All changes are automatically committed and deployed.
 
 #### **1. Clone the Repository**
 ```bash
-git clone 
+git clone https://github.com/Arjun4522/sizzle
 cd sizzle
 ````
 
