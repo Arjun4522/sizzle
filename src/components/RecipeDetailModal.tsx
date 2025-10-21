@@ -38,16 +38,15 @@ export const RecipeDetailModal = ({ isOpen, onClose, recipe }: RecipeDetailModal
           <div className="w-10" />
         </div>
 
-        {/* Recipe Image */}
-        <div className="relative w-full aspect-[16/10] overflow-hidden">
-          <img 
-            src={recipe.image}
-            alt={recipe.title}
-            className="w-full h-full object-cover"
-          />
-        </div>
-
         <div className="max-w-lg mx-auto px-4">
+          {/* Recipe Image */}
+          <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl mt-4">
+            <img
+              src={recipe.image}
+              alt={recipe.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
           {/* Author Info */}
           <div className="py-4 flex items-center justify-between border-b border-border">
             <div className="flex items-center gap-3">
@@ -67,7 +66,14 @@ export const RecipeDetailModal = ({ isOpen, onClose, recipe }: RecipeDetailModal
           </div>
 
           {/* Stats */}
-          <div className="py-4 grid grid-cols-3 gap-4 border-b border-border">
+          <div className="py-4 grid grid-cols-4 gap-4 border-b border-border">
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-2 text-primary mb-1">
+                <Heart className="w-4 h-4" />
+              </div>
+              <p className="text-xs text-muted-foreground">Likes</p>
+              <p className="text-sm font-semibold">{recipe.likes}</p>
+            </div>
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 text-primary mb-1">
                 <Clock className="w-4 h-4" />
