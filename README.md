@@ -1,8 +1,3 @@
-Here’s a **polished, professional README.md** for your **“Sizzle”** project on **Lovable** — formatted and expanded with branding, setup, and contribution details.
-
----
-
-````markdown
 # 🔥 Sizzle — A Modern Culinary Social Platform
 
 **Sizzle** is a modern, aesthetic, and mobile-first **culinary social media platform** where creators and chefs share, discover, and engage with recipes.  
@@ -78,8 +73,8 @@ All changes are automatically committed and deployed.
 
 #### **1. Clone the Repository**
 ```bash
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
+git clone 
+cd sizzle
 ````
 
 #### **2. Install Dependencies**
@@ -177,13 +172,4 @@ Developed with ❤️ using:
 
 This project is licensed under the **MIT License** — feel free to use and modify it.
 
----
 
-### ✨ “Sizzle” — Share your flavor. Inspire the world. 🌍🔥
-
-```
-
----
-
-Would you like me to add a **“Feature Roadmap”** section (3–6 months plan) at the end of this README for upcoming versions (e.g., monetization, video recipes, creator tools)? It makes it look like a serious product roadmap for potential collaborators or investors.
-```
